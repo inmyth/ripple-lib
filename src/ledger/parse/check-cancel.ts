@@ -1,5 +1,5 @@
 import * as assert from 'assert'
-import {removeUndefined, txFlags} from '../../common'
+import {removeUndefined} from '../../common'
 
 function parseCheckCancel(tx: any): Object {
   assert(tx.TransactionType === 'CheckCancel')
